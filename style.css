@@ -141,7 +141,7 @@
         position: relative;
         width:140%;
         right: 177px;
-        margin-top: 436px;
+        margin-top: 466px;
         animation:fly 17s infinite ;
      }
     
@@ -150,7 +150,7 @@
      {
         10%
         {
-            top:-446%;
+            top:-416%;
             bottom:64px;
         }
         15%
