@@ -137,13 +137,14 @@
 }
     
 
-    .flybird{
-        position: relative;
-        width:140%;
-        right: 177px;
-        margin-top: 326px;
-        animation:fly 17s infinite ;
-     }
+.flybird{
+    position: relative;
+    width:110%;
+    
+    margin-top: 170px;
+    animation:fly 17s infinite ;
+ }
+
     
     
      
