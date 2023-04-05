@@ -146,29 +146,31 @@
      }
     
     
-     @keyframes fly
-     {
-        10%
-        {
-            top:-416%;
-            bottom:64px;
-        }
-        15%
-        {
-        bottom:  105px;
-        }
-        
-        25%
-        {
-            bottom:   25px;
-        }
-        50%
-        {
-            top:-58px;
-            bottom:105px;
-        }
-        
-    
+     
+ @keyframes fly
+ {
+    10%
+    {
+        top:-446%;
+        bottom:64px;
     }
+    15%
+    {
+    bottom:  105px;
+    }
+    
+    25%
+    {
+        bottom:   25px;
+    }
+    50%
+    {
+        top:-58px;
+        bottom:105px;
+    }
+    
+
+}
+
 
 }
