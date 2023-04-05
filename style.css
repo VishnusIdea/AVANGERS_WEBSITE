@@ -140,7 +140,6 @@
 .flybird{
     position: relative;
     width:200%;
-    
     margin-top: 170px;
     animation:fly 17s infinite ;
  }
