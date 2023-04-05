@@ -33,14 +33,18 @@
     transition: 0.25px;
 }
 
-
+.log{
+    position: relative;
+    width:549%;
+    right: 1313px;
+    margin-top: 170px;
+}
 
 
 .flybird{
     position: relative;
-    width:56%;
-    
-    margin-top: 170px;
+    width:56%; 
+    margin-top: -54px;
     animation:fly 17s infinite ;
  }
 
@@ -137,13 +141,16 @@
 }
     
 
+
 .flybird{
     position: relative;
-    width:200%;
-    margin-top: 170px;
+    width:173%; 
+    margin-top: -54px;
     animation:fly 17s infinite ;
+    right: 235px;
  }
-       
+    
+     
  @keyframes fly
  {
     10%
@@ -162,7 +169,7 @@
     }
     50%
     {
-        top:-58px;
+        top:40px;
         bottom:105px;
     }
     
