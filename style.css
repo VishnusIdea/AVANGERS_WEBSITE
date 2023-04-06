@@ -2,49 +2,46 @@
     margin: 0;
     padding: 0;
 }
+body{
+    animation: change 4s infinite;
+   
+}
+@keyframes change {
+
+    0%{background-color: black;}
+    10%{background-color: red;}
+    15%{background-color:goldenrod;}
+    25%{background-color: black;}
+    35%{background-color:goldenrod;}
+    50%{background-color: red;}
+    100%{background-color: black;}
+} 
+
+ 
 .box{
-    width: 205px;
-    padding: 63px;
-    position: absolute;
-    top: 340px;
-    left: 771px;
-    transform: translate(-50%,-50%);
-    background: rgb(0,0,0,0.4);
-    text-align: center;
-}
-.box h1{
-    color: white;
-    text-transform: uppercase;
-    font-weight: 1000;
-}
-.box input[type="text"],.box input[type="password"] 
-{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 3px solid rgba(253, 48, 16, 0.959);
-    padding: 24px 10px;
-    width: 220px;
-    outline: none;
-    color: #fff;
-    border-radius: 24px;
-    transition: 0.25px;
-}
-
-.log{
+    
+    background-color: black;
+    height: 600px;
+    width: 1300px;
     position: relative;
-    width:549%;
-    right: 1313px;
-    margin-top: 170px;
+    margin-top:68px ;
+    right: -100px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+ 
+.mq{
+    overflow: hidden;
+    height: 20px;
+    width: 1223px;
+    padding: 27px;
+   
 }
 
-
-.flybird{
+.ironman{
     position: relative;
-    width:56%; 
-    margin-top: -54px;
+    width:50%; 
+    margin-top: 110px;
     animation:fly 17s infinite ;
  }
 
@@ -56,10 +53,7 @@
         top:-446%;
         bottom:64px;
     }
-    15%
-    {
-    bottom:  105px;
-    }
+    
     
     25%
     {
@@ -74,107 +68,3 @@
 
 }
 
-
-@media screen and (max-width: 600px)
-{
-
-
-    
-.box{
-    width: 191px;
-    padding: 13px;
-    position: absolute;
-    top: 522px;
-    left: 265px;
-    transform: translate(-50%,-50%);
-    background: rgb(0,0,0,0,4);
-    text-align: center;
-}
-.box h1{
-    color: white;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-.box input[type="text"],.box input[type="password"] 
-{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 3px solid purple;
-    padding: 24px 10px;
-    width: 220px;
-    outline: none;
-    color: #fff;
-    border-radius: 24px;
-    transition: 0.25px;
-}
-.box input[type="text"]:focus
-{
-    width: 270px;
-    border-color: blue;
-}
-.box input[type="password"]:focus
-{
-    width: 270px;
-    border-color: blue;
-}
-.box input[type="submit"] 
-{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 3px solid blue ;
-    padding: 14px 73px;
-    
-    outline: none;
-    color: #fff;
-    border-radius: 24px;
-    transition: 0.25px;
-    cursor: pointer;
-}
-.box input[type="submit"] :hover{
-    background: blue;
-}
-    
-
-
-.flybird{
-    position: relative;
-    width:173%; 
-    margin-top: -54px;
-    animation:fly 17s infinite ;
-    right: 235px;
- }
-    
-     
- @keyframes fly
- {
-    10%
-    {
-        top:-446%;
-        bottom:64px;
-    }
-    15%
-    {
-    bottom:  105px;
-    }
-    
-    25%
-    {
-        bottom:   25px;
-    }
-    50%
-    {
-        top:40px;
-        bottom:105px;
-    }
-    
-
-}
-
-
-}
