@@ -95,7 +95,7 @@ body{
     .box{
         
         background-color: black;
-        height: 805px;
+        height: 775px;
         width: 351px;
         position: relative;
         margin-top:30px ;
@@ -109,7 +109,7 @@ body{
         height: 306px;
         width: 313px;
         padding: 6px;
-        margin-top: 72px;
+        margin-top: 20px;
         border-radius: 8px;
        
     }
