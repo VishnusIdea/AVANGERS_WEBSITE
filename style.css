@@ -95,7 +95,7 @@ body{
     .box{
         
         background-color: black;
-        height: 775px;
+        height: 805px;
         width: 351px;
         position: relative;
         margin-top:30px ;
@@ -119,7 +119,7 @@ body{
         overflow: hidden;
         position: relative;
         width:90%; 
-        margin-top: 78px;
+        margin-top: 158px;
         animation:fly 7s infinite ;
          right: 5px;
          height: 260px;
