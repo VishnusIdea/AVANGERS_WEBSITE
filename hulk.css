@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    animation: change 4s infinite;
+   
+}
+@keyframes change {
+
+    0%{background-color: black;}
+    10%{background-color: darkgreen;}
+    15%{background-color:black;}
+    25%{background-color: green;}
+    35%{background-color:black;}
+    50%{background-color:darkgreen;}
+    100%{background-color: black;}
+} 
+
+ 
+.box{
+    
+    background-color: black;
+    height: 600px;
+    width: 1300px;
+    position: relative;
+    margin-top:68px ;
+    right: -100px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+ 
+.content{
+    overflow: hidden;
+    height: 274px;
+    width: 487px;
+    padding: 696px;
+    margin-top: -1165px;
+    border-radius: 8px;
+   
+}
+
+.hulk{
+    
+    
+    position: relative;
+    width:46%; 
+    margin-top: -111px;
+
+ }
+
+
+
+
+
+
+
+@media screen and (max-width: 600px)
+{
+
+    body{
+        animation: change 4s infinite;
+       
+    }
+    @keyframes change {
+        0%{background-color: black;}
+        10%{background-color: darkgreen;}
+        15%{background-color:black;}
+        25%{background-color: green;}
+        35%{background-color:black;}
+        50%{background-color:darkgreen;}
+        100%{background-color: black;}
+    
+       
+    } 
+    
+     
+    .box{
+        
+        background-color: black;
+        height: 775px;
+        width: 351px;
+        position: relative;
+        margin-top:30px ;
+        right: -17px;
+        overflow: hidden;
+        border-radius: 2px;
+    }
+     
+    .content{
+        overflow: hidden;
+        height: 306px;
+        width: 313px;
+        padding: 6px;
+        margin-top: 0px;
+        border-radius: 8px;
+       
+    }
+    
+    .hulk{
+        
+        overflow: hidden;
+        position: relative;
+        width:90%; 
+        margin-top: 50px;
+        animation:fly 7s infinite ;
+         right: 5px;
+         height: 260px;
+     }
+    
+    
+
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+.avanger{
+    
+    
+    height: 216px;
+    width: 1300px;
+    position: relative;
+    margin-top:76px ;
+    right: -100px;
+    overflow: hidden;
+
+}
+
+.character1{
+    height: 200px;
+    position: relative;
+    padding: 168px;
+    margin-top: -208px;
+    width: 137px;
+    
+}
+
+.character2{
+    height: 227px;
+    position: relative;
+    width: 20%;
+    padding: 137px;
+    margin-top: -462px;
+    right: -194px;
+    
+}
+
+.character3{
+    height: 149px;
+    position: relative;
+    width: 11%;
+    padding: 137px;
+    margin-top: -474px;
+    right: -508px;
+    
+}
+
