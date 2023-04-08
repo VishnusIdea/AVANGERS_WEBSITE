@@ -3,9 +3,22 @@
     padding: 0;
 }
 body{
-    background-color: black;
+    background-color:rebeccapurple;
 }
 
+
+.box{
+        
+    background-color: black;
+    height: 517px;
+    width: 1445px;
+    position: relative;
+    margin-top: 30px;
+    right: -42px;
+    overflow: hidden;
+    border-radius: 2px;
+}
+ 
 .avanger{
     
     
@@ -28,22 +41,22 @@ body{
 }
 
 .character2{
-    height: 200px;
-    position: relative;
-    width: 150%;
-    padding: 137px;
-    margin-top: -462px;
-    right: -194px;
-    
+     height: 224px;
+  position: relative;
+  width: 31%;
+  padding: 135px;
+  margin-top: -462px;
+  right: -121px;
 }
+    
 
 .character3{
-    height: 200px;
-    position: relative;
-    width: 150%;
-    padding: 137px;
-    margin-top: -474px;
-    right: -508px;
+    height: 167px;
+position: relative;
+width: 11%;
+padding: 137px;
+margin-top: -474px;
+right: -508px;
     
 }
 
