@@ -59,11 +59,12 @@ right: -508px;
     
 }
 
-.btlinks{
+.btlinks
+{
     margin: auto;
      }
-.button{
-    
+
+.button{ 
     padding: 10px 16px;
     margin: 20px;
     font-size:1em ;
@@ -106,5 +107,4 @@ right: -508px;
   }
 .button3:hover{
     background-color: darkgreen;
-    
 }
