@@ -49,7 +49,7 @@ overflow: hidden;
 .character2{
     height: 224px;
 position: relative;
-width: 17%;
+width: 21%;
 margin-top: -150px;
 right: -350px;
 }
@@ -160,9 +160,10 @@ padding-left: 4px;
 .character2{
     height: 183px;
     position: relative;
-    width: 19%;
+    width: 71%;
     margin-top: -122px;
-    right: -227px;
+    right: -156px;
+  }
   }
 
     
