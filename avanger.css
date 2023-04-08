@@ -64,6 +64,14 @@ right: -350px;
     
 }
 
+.character4{
+    height: 214px;
+    position: relative;
+    margin-top: -216px;
+    right: -845px;
+      
+}
+
 .btlinks
 {
     margin: auto;
@@ -110,6 +118,17 @@ right: -350px;
 .button3:hover{
     background-color: darkgreen;
 }
+
+.button4{
+    height: 50px;
+    width: 119px;
+    position: sticky;
+    left: 932px;
+  }
+.button4:hover{
+    background-color: rgb(110, 2, 2);
+}
+
 
 
 
@@ -165,16 +184,21 @@ padding-left: 4px;
     right: -156px;
   }
   
-
-    
-
 .character3{
     height: 107px;
   position: relative;
   margin-top: 32px;
   right: 4px;
 }
-    
+.character4{
+    height: 160px;
+    position: relative;
+    margin-top: -157px;
+    right: -176px;
+    width: 198px;
+}
+   
+
 .btlinks
 {
     margin: auto;
@@ -226,5 +250,15 @@ padding-left: 4px;
     background-color: darkgreen;
 }
 
+.button4{
+    height: 50px;
+    width: 119px;
+    position: sticky;
+    left: 205px;
+  }
+.button4:hover{
+    background-color: rgb(110, 2, 2);
+}
+ 
 
 }
