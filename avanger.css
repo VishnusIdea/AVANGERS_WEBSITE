@@ -4,58 +4,63 @@
 }
 
 body{
-    background-color:rebeccapurple;
+    background-color:black;
 }
 
 
 .box{
         
-    background-color: black;
-    height: 586px;
+    height: 600px;
     width: 1445px;
     position: relative;
     margin-top: 30px;
     right: -42px;
     overflow: hidden;
     border-radius: 2px;
+    animation: change 4s infinite;
+   
 }
+@keyframes change {
+
+    0%{background-color: black;}
+    20%{background-color:rgb(110, 2, 2);}
+    35%{background-color:black;}
+    55%{background-color: rgb(110, 2, 2);}
+    65%{background-color:black;}
+    100%{background-color:rgb(110, 2, 2);}
+} 
  
 .avanger{ 
-    height: 216px;
-    width: 1300px;
-    position: relative;
-    margin-top:76px ;
-    right: -100px;
-    overflow: hidden;
+    height: 273px;
+width: 1425px;
+position: relative;
+margin-top: 15px;
+right: -7px;
+overflow: hidden;
 
 }
 
 .character1{
-    height: 200px;
-    position: relative;
-    padding: 168px;
-    margin-top: -208px;
-    width: 150px;
+    height: 174px;
+    padding-left: 139px;
     
 }
 
 .character2{
-     height: 224px;
-  position: relative;
-  width: 31%;
-  padding: 135px;
-  margin-top: -462px;
-  right: -121px;
+    height: 224px;
+position: relative;
+width: 17%;
+margin-top: -150px;
+right: -350px;
 }
     
 
 .character3{
     height: 167px;
-position: relative;
-width: 11%;
-padding: 137px;
-margin-top: -474px;
-right: -508px;
+    position: relative;
+    
+    margin-top: -216px;
+    right: -649px;
     
 }
 
@@ -77,7 +82,6 @@ right: -508px;
 .button1{
     height: 50px;
     width: 119px;
-    margin-top: -172px;
     position: absolute;
     left: 181px;
   }
@@ -89,7 +93,6 @@ right: -508px;
 .button2{
     height: 50px;
     width: 119px;
-    margin-top: -205px;
     position: sticky;
     left: 420px;
   }
@@ -101,10 +104,126 @@ right: -508px;
 .button3{
     height: 50px;
     width: 119px;
-    margin-top: -205px;
     position: sticky;
     left: 665px;
   }
 .button3:hover{
     background-color: darkgreen;
+}
+
+
+
+@media screen and (max-width: 600px)
+{
+ 
+body{
+    background-color:black;
+}
+
+
+.box{
+    height: 755px;
+    width: 343px;
+    position: relative;
+    margin-top: 31px;
+    right: -26px;
+    overflow: hidden;
+    animation: change 4s infinite;
+  }
+
+@keyframes change {
+
+    0%{background-color: black;}
+    20%{background-color:rgb(110, 2, 2);}
+    35%{background-color:black;}
+    55%{background-color: rgb(110, 2, 2);}
+    65%{background-color:black;}
+    100%{background-color:rgb(110, 2, 2);}
+} 
+ 
+.avanger{ 
+    height: 273px;
+    width: 367px;
+    position: relative;
+    margin-top: 16px;
+    right: 15px;
+    overflow: hidden;
+
+}
+
+.character1{
+    height: 99px;
+padding-left: 4px;
+    
+}
+
+.character2{
+    height: 183px;
+    position: relative;
+    width: 19%;
+    margin-top: -122px;
+    right: -227px;
+  }
+
+    
+
+.character3{
+    height: 107px;
+  position: relative;
+  margin-top: 32px;
+  right: 4px;
+}
+    
+.btlinks
+{
+    margin: auto;
+     }
+
+.button{ 
+    padding: 10px 16px;
+    margin: 20px;
+    font-size:1em ;
+    font-family:sans-serif ;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: .4s ease-in;
+}
+.button1{
+    height: 50px;
+    width: 119px;
+    position: absolute;
+    left: 5px;
+    margin-top: -184px;
+  }
+
+.button1:hover{
+    background-color:goldenrod;
+}
+
+.button2{
+    height: 49px;
+  width: 119px;
+  position: fixed;
+  left: 225px;
+  margin-top: -181px;
+}
+  }
+   
+.button2:hover{
+    background-color: #245EB3;
+}
+
+.button3{
+    height: 50px;
+    width: 119px;
+    position: fixed;
+    left: 33px;
+  
+  }
+.button3:hover{
+    background-color: darkgreen;
+}
+
+
 }
