@@ -1,151 +1,146 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    animation: change 4s infinite;
-   
+body {
+  animation: change 4s infinite;
 }
 @keyframes change {
-
-    0%{background-color: black;}
-    10%{background-color: red;}
-    15%{background-color:goldenrod;}
-    25%{background-color: black;}
-    35%{background-color:goldenrod;}
-    50%{background-color: red;}
-    100%{background-color: black;}
-} 
-
- 
-.box{
-    
+  0% {
     background-color: black;
-    height: 600px;
-    width: 1300px;
+  }
+  10% {
+    background-color: red;
+  }
+  15% {
+    background-color: goldenrod;
+  }
+  25% {
+    background-color: black;
+  }
+  35% {
+    background-color: goldenrod;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+.box {
+  background-color: black;
+  height: 600px;
+  width: 1300px;
+  position: relative;
+  margin-top: 68px;
+  right: -100px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.content {
+  overflow: hidden;
+  height: 274px;
+  width: 487px;
+  padding: 680px;
+  margin-top: -1059px;
+  border-radius: 8px;
+}
+
+.ironman {
+  position: relative;
+  width: 50%;
+  margin-top: 110px;
+  animation: fly 7s infinite;
+}
+
+@keyframes fly {
+  10% {
+    top: -446%;
+    bottom: 64px;
+  }
+
+  25% {
+    bottom: 25px;
+  }
+  50% {
+    top: -1026px;
+    bottom: 105px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    animation: change 4s infinite;
+  }
+  @keyframes change {
+    0% {
+      background-color: black;
+    }
+    10% {
+      background-color: red;
+    }
+    15% {
+      background-color: goldenrod;
+    }
+    25% {
+      background-color: black;
+    }
+    35% {
+      background-color: goldenrod;
+    }
+    50% {
+      background-color: red;
+    }
+    100% {
+      background-color: black;
+    }
+  }
+
+  .box {
+    background-color: black;
+    height: 775px;
+    width: 351px;
     position: relative;
-    margin-top:68px ;
-    right: -100px;
+    margin-top: 30px;
+    right: -17px;
     overflow: hidden;
-    border-radius: 8px;
-}
- 
-.content{
-    overflow: hidden;
-    height: 274px;
-    width: 487px;
-    padding: 680px;
-    margin-top: -1059px;
-    border-radius: 8px;
-   
-}
+    border-radius: 2px;
+  }
 
-.ironman{
-    
-    
+  .content {
+    overflow: hidden;
+    height: 306px;
+    width: 313px;
+    padding: 6px;
+    margin-top: 0px;
+    border-radius: 8px;
+  }
+
+  .ironman {
+    overflow: hidden;
     position: relative;
-    width:50%; 
-    margin-top: 110px;
-    animation:fly 7s infinite ;
- }
+    width: 90%;
+    margin-top: 158px;
+    animation: fly 7s infinite;
+    right: 5px;
+    height: 260px;
+  }
 
-
- @keyframes fly
- {
-    10%
-    {
-        top:-446%;
-        bottom:64px;
-    }
-    
-    
-    25%
-    {
-        bottom:   25px;
-    }
-    50%
-    {
-        top:-1026px;
-        bottom:105px;
-    }
-    
-
-}
-
-
-@media screen and (max-width: 600px)
-{
-
-    body{
-        animation: change 4s infinite;
-       
-    }
-    @keyframes change {
-    
-        0%{background-color: black;}
-        10%{background-color: red;}
-        15%{background-color:goldenrod;}
-        25%{background-color: black;}
-        35%{background-color:goldenrod;}
-        50%{background-color: red;}
-        100%{background-color: black;}
-    } 
-    
-     
-    .box{
-        
-        background-color: black;
-        height: 775px;
-        width: 351px;
-        position: relative;
-        margin-top:30px ;
-        right: -17px;
-        overflow: hidden;
-        border-radius: 2px;
-    }
-     
-    .content{
-        overflow: hidden;
-        height: 306px;
-        width: 313px;
-        padding: 6px;
-        margin-top: 0px;
-        border-radius: 8px;
-       
-    }
-    
-    .ironman{
-        
-        overflow: hidden;
-        position: relative;
-        width:90%; 
-        margin-top: 158px;
-        animation:fly 7s infinite ;
-         right: 5px;
-         height: 260px;
-     }
-    
-    
-     @keyframes fly
-     {
-        10%
-        {
-            top:-446%;
-            bottom:64px;
-        }
-        
-        
-        25%
-        {
-            bottom:   25px;
-        }
-        50%
-        {
-            top:-1026px;
-            bottom:105px;
-        }
-        
-    
+  @keyframes fly {
+    10% {
+      top: -446%;
+      bottom: 64px;
     }
 
+    25% {
+      bottom: 25px;
+    }
+    50% {
+      top: -1026px;
+      bottom: 105px;
+    }
+  }
 }

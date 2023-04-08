@@ -1,146 +1,142 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color:black;
+body {
+  background-color: black;
 }
 
-
-.box{
-        
-    height: 600px;
-    width: 1445px;
-    position: relative;
-    margin-top: 30px;
-    right: -42px;
-    overflow: hidden;
-    border-radius: 2px;
-    animation: change 4s infinite;
-   
+.box {
+  height: 600px;
+  width: 1445px;
+  position: relative;
+  margin-top: 30px;
+  right: -42px;
+  overflow: hidden;
+  border-radius: 2px;
+  animation: change 4s infinite;
 }
 @keyframes change {
-
-    0%{background-color: black;}
-    20%{background-color:rgb(110, 2, 2);}
-    35%{background-color:black;}
-    55%{background-color: rgb(110, 2, 2);}
-    65%{background-color:black;}
-    100%{background-color:rgb(110, 2, 2);}
-} 
- 
-.avanger{ 
-    height: 273px;
-width: 1425px;
-position: relative;
-margin-top: 15px;
-right: -7px;
-overflow: hidden;
-
-}
-
-.character1{
-    height: 174px;
-    padding-left: 139px;
-    
-}
-
-.character2{
-    height: 224px;
-position: relative;
-width: 21%;
-margin-top: -150px;
-right: -350px;
-}
-    
-
-.character3{
-    height: 167px;
-    position: relative;
-    
-    margin-top: -216px;
-    right: -649px;
-    
-}
-
-.character4{
-    height: 214px;
-    position: relative;
-    margin-top: -216px;
-    right: -845px;
-      
-}
-
-.btlinks
-{
-    margin: auto;
-     }
-
-.button{ 
-    padding: 10px 16px;
-    margin: 20px;
-    font-size:1em ;
-    font-family:sans-serif ;
-    font-weight: bold;
-    cursor: pointer;
-    border: none;
-    transition: .4s ease-in;
-}
-.button1{
-    height: 50px;
-    width: 119px;
-    position: absolute;
-    left: 181px;
+  0% {
+    background-color: black;
   }
-
-.button1:hover{
-    background-color:goldenrod;
-}
-
-.button2{
-    height: 50px;
-    width: 119px;
-    position: sticky;
-    left: 420px;
-  }
-   
-.button2:hover{
-    background-color: #245EB3;
-}
-
-.button3{
-    height: 50px;
-    width: 119px;
-    position: sticky;
-    left: 665px;
-  }
-.button3:hover{
-    background-color: darkgreen;
-}
-
-.button4{
-    height: 50px;
-    width: 119px;
-    position: sticky;
-    left: 932px;
-  }
-.button4:hover{
+  20% {
     background-color: rgb(110, 2, 2);
+  }
+  35% {
+    background-color: black;
+  }
+  55% {
+    background-color: rgb(110, 2, 2);
+  }
+  65% {
+    background-color: black;
+  }
+  100% {
+    background-color: rgb(110, 2, 2);
+  }
 }
 
-
-
-
-@media screen and (max-width: 600px)
-{
- 
-body{
-    background-color:black;
+.avanger {
+  height: 273px;
+  width: 1425px;
+  position: relative;
+  margin-top: 15px;
+  right: -7px;
+  overflow: hidden;
 }
 
+.character1 {
+  height: 174px;
+  padding-left: 139px;
+}
 
-.box{
+.character2 {
+  height: 224px;
+  position: relative;
+  width: 21%;
+  margin-top: -150px;
+  right: -350px;
+}
+
+.character3 {
+  height: 167px;
+  position: relative;
+
+  margin-top: -216px;
+  right: -649px;
+}
+
+.character4 {
+  height: 214px;
+  position: relative;
+  margin-top: -216px;
+  right: -845px;
+}
+
+.btlinks {
+  margin: auto;
+}
+
+.button {
+  padding: 10px 16px;
+  margin: 20px;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s ease-in;
+}
+.button1 {
+  height: 50px;
+  width: 119px;
+  position: absolute;
+  left: 181px;
+}
+
+.button1:hover {
+  background-color: goldenrod;
+}
+
+.button2 {
+  height: 50px;
+  width: 119px;
+  position: sticky;
+  left: 420px;
+}
+
+.button2:hover {
+  background-color: #245eb3;
+}
+
+.button3 {
+  height: 50px;
+  width: 119px;
+  position: sticky;
+  left: 665px;
+}
+.button3:hover {
+  background-color: darkgreen;
+}
+
+.button4 {
+  height: 50px;
+  width: 119px;
+  position: sticky;
+  left: 932px;
+}
+.button4:hover {
+  background-color: rgb(110, 2, 2);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+
+  .box {
     height: 755px;
     width: 343px;
     position: relative;
@@ -150,71 +146,78 @@ body{
     animation: change 4s infinite;
   }
 
-@keyframes change {
+  @keyframes change {
+    0% {
+      background-color: black;
+    }
+    20% {
+      background-color: rgb(110, 2, 2);
+    }
+    35% {
+      background-color: black;
+    }
+    55% {
+      background-color: rgb(110, 2, 2);
+    }
+    65% {
+      background-color: black;
+    }
+    100% {
+      background-color: rgb(110, 2, 2);
+    }
+  }
 
-    0%{background-color: black;}
-    20%{background-color:rgb(110, 2, 2);}
-    35%{background-color:black;}
-    55%{background-color: rgb(110, 2, 2);}
-    65%{background-color:black;}
-    100%{background-color:rgb(110, 2, 2);}
-} 
- 
-.avanger{ 
+  .avanger {
     height: 273px;
     width: 367px;
     position: relative;
     margin-top: 16px;
     right: 15px;
     overflow: hidden;
+  }
 
-}
-
-.character1{
+  .character1 {
     height: 99px;
-padding-left: 4px;
-    
-}
+    padding-left: 4px;
+  }
 
-.character2{
+  .character2 {
     height: 183px;
     position: relative;
     width: 71%;
     margin-top: -122px;
     right: -156px;
   }
-  
-.character3{
+
+  .character3 {
     height: 107px;
-  position: relative;
-  margin-top: 32px;
-  right: 4px;
-}
-.character4{
+    position: relative;
+    margin-top: 32px;
+    right: 4px;
+  }
+  .character4 {
     height: 160px;
     position: relative;
     margin-top: -157px;
     right: -176px;
     width: 198px;
-}
-   
+  }
 
-.btlinks
-{
+  .btlinks {
     margin: auto;
-     }
+  }
 
-.button{ 
+  .button {
     padding: 10px 16px;
     margin: 20px;
-    font-size:1em ;
-    font-family:sans-serif ;
+    font-size: 1em;
+    font-family: sans-serif;
     font-weight: bold;
     cursor: pointer;
     border: none;
-    transition: .4s ease-in;
-}
-.button1{
+    transition: 0.4s ease-in;
+  }
+  .button1 {
     height: 50px;
     width: 119px;
     position: absolute;
@@ -222,43 +225,39 @@ padding-left: 4px;
     margin-top: -184px;
   }
 
-.button1:hover{
-    background-color:goldenrod;
-}
+  .button1:hover {
+    background-color: goldenrod;
+  }
 
-.button2{
+  .button2 {
     height: 49px;
-  width: 119px;
-  position: fixed;
-  left: 225px;
-  margin-top: -181px;
-}
- 
-   
-.button2:hover{
-    background-color: #245EB3;
-}
+    width: 119px;
+    position: fixed;
+    left: 225px;
+    margin-top: -181px;
+  }
 
-.button3{
+  .button2:hover {
+    background-color: #245eb3;
+  }
+
+  .button3 {
     height: 50px;
     width: 119px;
     position: fixed;
     left: 33px;
-  
   }
-.button3:hover{
+  .button3:hover {
     background-color: darkgreen;
-}
+  }
 
-.button4{
+  .button4 {
     height: 50px;
     width: 119px;
     position: sticky;
     left: 205px;
   }
-.button4:hover{
+  .button4:hover {
     background-color: rgb(110, 2, 2);
-}
- 
-
+  }
 }

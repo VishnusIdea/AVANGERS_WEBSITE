@@ -1,114 +1,115 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    animation: change 4s infinite;
-   
+body {
+  animation: change 4s infinite;
 }
 @keyframes change {
-
-    0%{background-color: black;}
-    10%{background-color: darkblue;}
-    15%{background-color:black;}
-    25%{background-color: darkblue;}
-    35%{background-color:black;}
-    50%{background-color:darkblue;}
-    100%{background-color: black;}
-} 
-
- 
-.box{
-    
+  0% {
     background-color: black;
-    height: 600px;
-    width: 1300px;
-    position: relative;
-    margin-top:68px ;
-    right: -100px;
-    overflow: hidden;
-    border-radius: 8px;
+  }
+  10% {
+    background-color: darkblue;
+  }
+  15% {
+    background-color: black;
+  }
+  25% {
+    background-color: darkblue;
+  }
+  35% {
+    background-color: black;
+  }
+  50% {
+    background-color: darkblue;
+  }
+  100% {
+    background-color: black;
+  }
 }
- 
-.content{
-    overflow: hidden;
-    height: 274px;
-    width: 487px;
-    padding: 696px;
-    margin-top: -1165px;
-    border-radius: 8px;
-   
+
+.box {
+  background-color: black;
+  height: 600px;
+  width: 1300px;
+  position: relative;
+  margin-top: 68px;
+  right: -100px;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
-.captian{
-    
-    
+.content {
+  overflow: hidden;
+  height: 274px;
+  width: 487px;
+  padding: 696px;
+  margin-top: -1165px;
+  border-radius: 8px;
+}
+
+.captian {
+  position: relative;
+  width: 46%;
+  margin-top: -77px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    animation: change 4s infinite;
+  }
+  @keyframes change {
+    0% {
+      background-color: black;
+    }
+    10% {
+      background-color: darkblue;
+    }
+    15% {
+      background-color: black;
+    }
+    25% {
+      background-color: darkblue;
+    }
+    35% {
+      background-color: black;
+    }
+    50% {
+      background-color: darkblue;
+    }
+    100% {
+      background-color: black;
+    }
+  }
+
+  .box {
+    background-color: black;
+    height: 775px;
+    width: 351px;
     position: relative;
-    width:46%; 
-    margin-top: -77px;
+    margin-top: 30px;
+    right: -17px;
+    overflow: hidden;
+    border-radius: 2px;
+  }
 
- }
+  .content {
+    overflow: hidden;
+    height: 306px;
+    width: 313px;
+    padding: 6px;
+    margin-top: 0px;
+    border-radius: 8px;
+  }
 
-
-
-
-
-
-
-@media screen and (max-width: 600px)
-{
-
-    body{
-        animation: change 4s infinite;
-       
-    }
-    @keyframes change {
-       
-    0%{background-color: black;}
-    10%{background-color: darkblue;}
-    15%{background-color:black;}
-    25%{background-color: darkblue;}
-    35%{background-color:black;}
-    50%{background-color:darkblue;}
-    100%{background-color: black;}
-    
-       
-    } 
-    
-     
-    .box{
-        
-        background-color: black;
-        height: 775px;
-        width: 351px;
-        position: relative;
-        margin-top:30px ;
-        right: -17px;
-        overflow: hidden;
-        border-radius: 2px;
-    }
-     
-    .content{
-        overflow: hidden;
-        height: 306px;
-        width: 313px;
-        padding: 6px;
-        margin-top: 0px;
-        border-radius: 8px;
-       
-    }
-    
-    .captian{
-        
-        overflow: hidden;
-        position: relative;
-        width: 107%;
-        margin-top: -5px;
-        animation: fly 7s infinite;
-        right: 15px;
-        height: 260px;
-      }
-     }
-    
-    
-
+  .captian {
+    overflow: hidden;
+    position: relative;
+    width: 107%;
+    margin-top: -5px;
+    animation: fly 7s infinite;
+    right: 15px;
+    height: 260px;
+  }
+}
